@@ -1,5 +1,4 @@
 # NAVA Business Intelligence Portfolio
-## End-to-End Business Intelligence Solution
 
 This portfolio showcases a complete Business Intelligence solution developed for **NAVA**, a fictional e-commerce company specializing in Home Decor & Lifestyle products across **France, Spain and Portugal**.
 
