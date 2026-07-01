@@ -63,10 +63,10 @@ Return_Quantity               INT
 DROP TABLE IF EXISTS NAVA_raw.dim_location;
 
 CREATE TABLE NAVA_raw.dim_location(
-Postal_Code				            VARCHAR(10),
-City 					                VARCHAR(50),
-Region 				                VARCHAR(50),
-Country 				              VARCHAR(50)
+Postal_Code                   VARCHAR(10),
+City                          VARCHAR(50),
+Region                        VARCHAR(50),
+Country                       VARCHAR(50)
 );
 
 
@@ -74,24 +74,24 @@ Country 				              VARCHAR(50)
 DROP TABLE IF EXISTS NAVA_raw.dim_customers;
 
 CREATE TABLE NAVA_raw.dim_customers (
-Customer_ID 			            VARCHAR(50),
-Customer_Name 			          VARCHAR(100),
-Customer_Segment 			        VARCHAR(50),
-Customer_First_Order_Date 		DATE,
-Postal_Code 				          VARCHAR(10)
+Customer_ID                   VARCHAR(50),
+Customer_Name                 VARCHAR(100),
+Customer_Segment              VARCHAR(50),
+Customer_First_Order_Date     DATE,
+Postal_Code                   VARCHAR(10)
 );
 
 -- Drop and recreate NAVA_raw.dim_products table
 DROP TABLE IF EXISTS NAVA_raw.dim_products;
 
 CREATE TABLE NAVA_raw.dim_products (
-Product_ID 				            VARCHAR(50),
-Product_Name 		            	VARCHAR(100),
-Category 				              VARCHAR(50),
-Sub_Category 			            VARCHAR(50),
-Product_Tier 			          	VARCHAR(50),
-Is_Top_Seller 			        	VARCHAR(10),
-Standard_Cost 			          DECIMAL(10,2)
+Product_ID                    VARCHAR(50),
+Product_Name                  VARCHAR(100),
+Category                      VARCHAR(50),
+Sub_Category                  VARCHAR(50),
+Product_Tier                  VARCHAR(50),
+Is_Top_Seller                 VARCHAR(10),
+Standard_Cost                 DECIMAL(10,2)
 );
 
 
@@ -104,23 +104,23 @@ Standard_Cost 			          DECIMAL(10,2)
 DROP TABLE IF EXISTS NAVA_raw.fact_budget;
 
 CREATE TABLE NAVA_raw.fact_budget (
-Budget_Month 			DATE,
-Country 				VARCHAR(50),
-Budget_Type 				VARCHAR(50),
-Budget_Amount 			DECIMAL(10,2)
+Budget_Month                  DATE,
+Country                       VARCHAR(50),
+Budget_Type                   VARCHAR(50),
+Budget_Amount                 DECIMAL(10,2)
 );
 
 -- Drop and recreate NAVA_raw.fact_expenses table
 DROP TABLE IF EXISTS NAVA_raw.fact_expenses;
 
 CREATE TABLE NAVA_raw.fact_expenses(
-Expense_ID				VARCHAR(50),
-Invoice_Date 				DATE,
-Department 				VARCHAR(50),
-Cost_Category			VARCHAR(50),
-Vendor_Name				VARCHAR(50),
-Amount_Actual			DECIMAL(10,2),
-Country				VARCHAR(50)
+Expense_ID                    VARCHAR(50),
+Invoice_Date                  DATE,
+Department                    VARCHAR(50),
+Cost_Category                 VARCHAR(50),
+Vendor_Name                   VARCHAR(50),
+Amount_Actual                 DECIMAL(10,2),
+Country                       VARCHAR(50)
 );
 
 -- ====================================================================
@@ -131,29 +131,29 @@ Country				VARCHAR(50)
 DROP TABLE IF EXISTS NAVA_raw.fact_marketing;
 
 CREATE TABLE NAVA_raw.fact_marketing (
-Marketing_ID				VARCHAR(50),
-Date 					DATE,
-Country 				VARCHAR(50),
-Channel 				VARCHAR(50),
-Campaign_ID 				VARCHAR(50),
-Campaign_Name 			VARCHAR(100),
-Spend 					DECIMAL(10,2),
-Impressions				INT,
-Clicks					INT
+Marketing_ID                  VARCHAR(50),
+Date                          DATE,
+Country                       VARCHAR(50),
+Channel                       VARCHAR(50),
+Campaign_ID                   VARCHAR(50),
+Campaign_Name                 VARCHAR(100),
+Spend                         DECIMAL(10,2),
+Impressions                   INT,
+Clicks                        INT
 );
 
 -- Drop and recreate NAVA_raw.fact_marketing_conversion table
 DROP TABLE IF EXISTS NAVA_raw.fact_marketing_conversion;
 
 CREATE TABLE NAVA_raw.fact_marketing_conversion (
-Conversion_ID			VARCHAR(50),
-Order_ID 				VARCHAR(50),
-Order_Date				DATE,
-Country				VARCHAR(50),
-Channel				VARCHAR(50),
-Campaign_ID				VARCHAR(50),
-Campaign_Name			VARCHAR(50),
-Customer_ID				VARCHAR(50),
-Conversion_Type			VARCHAR(50),
-Attributed_Revenue			DECIMAL(10,2)
+Conversion_ID                 VARCHAR(50),
+Order_ID                      VARCHAR(50),
+Order_Date                    DATE,
+Country                       VARCHAR(50),
+Channel                       VARCHAR(50),
+Campaign_ID                   VARCHAR(50),
+Campaign_Name                 VARCHAR(50),
+Customer_ID                   VARCHAR(50),
+Conversion_Type               VARCHAR(50),
+Attributed_Revenue             DECIMAL(10,2)
 );
