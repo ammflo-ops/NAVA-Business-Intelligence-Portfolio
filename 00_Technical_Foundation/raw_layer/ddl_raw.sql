@@ -155,5 +155,5 @@ Campaign_ID                   VARCHAR(50),
 Campaign_Name                 VARCHAR(50),
 Customer_ID                   VARCHAR(50),
 Conversion_Type               VARCHAR(50),
-Attributed_Revenue             DECIMAL(10,2)
+Attributed_Revenue            DECIMAL(10,2)
 );
