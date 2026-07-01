@@ -1,9 +1,9 @@
 /*
 ======================================================================
-SCRIPT - Load Clean Layer 
+SCRIPT - Create Analytics Views 
 ======================================================================
 Project     : NAVA Data Warehouse
-Script      : load_analytics_views.sql
+Script      : load_analytics.sql
 
 Description :
 
