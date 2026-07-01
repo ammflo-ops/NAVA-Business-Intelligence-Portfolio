@@ -44,7 +44,6 @@ Discount_Type                 VARCHAR(50),
 Net_Sales                     DECIMAL(10,2)
 );
 
-
 -- Drop and recreate NAVA_raw.fact_returns table
 DROP TABLE IF EXISTS NAVA_raw.fact_returns;
 
@@ -58,7 +57,6 @@ Return_Amount                 DECIMAL(10,2),
 Return_Quantity               INT
 );
 
-
 -- Drop and recreate NAVA_raw.dim_location table
 DROP TABLE IF EXISTS NAVA_raw.dim_location;
 
@@ -68,7 +66,6 @@ City                          VARCHAR(50),
 Region                        VARCHAR(50),
 Country                       VARCHAR(50)
 );
-
 
 -- Drop and recreate NAVA_raw.dim_customers table
 DROP TABLE IF EXISTS NAVA_raw.dim_customers;
@@ -93,8 +90,6 @@ Product_Tier                  VARCHAR(50),
 Is_Top_Seller                 VARCHAR(10),
 Standard_Cost                 DECIMAL(10,2)
 );
-
-
 
 -- ====================================================================
 -- 02 Budget Performance tables
