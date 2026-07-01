@@ -28,10 +28,10 @@ All existing raw data will be permanently deleted.
 DROP TABLE IF EXISTS NAVA_raw.fact_sales;
 
 CREATE TABLE NAVA_raw.fact_sales (
-Order_ID 				              VARCHAR(50),
-Order_Line_ID			            VARCHAR(50),
-Order_Date 				            DATE,
-Customer_ID 			            VARCHAR(50),
+Order_ID                      VARCHAR(50),
+Order_Line_ID                 VARCHAR(50),
+Order_Date                    DATE,
+Customer_ID                   VARCHAR(50),
 Product_ID 				            VARCHAR(50),
 Postal_Code 			            VARCHAR(10),
 Ship_Date 				            DATE,
