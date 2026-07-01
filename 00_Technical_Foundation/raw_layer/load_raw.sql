@@ -2,10 +2,10 @@
 ======================================================================
 SCRIPT - Load Raw Data
 ======================================================================
-Project : NAVA Data Warehouse
-Script : load_raw_tables.sql
+Project     : NAVA Data Warehouse
+Script      : load_raw_tables.sql
 
-Description:
+Description :
 
 Truncates all raw tables and loads source data from CSV files.
 
