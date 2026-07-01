@@ -46,28 +46,28 @@ INSERT INTO NAVA_clean.fact_sales (
     net_sales
 )
 SELECT
-TRIM(Order_ID),
-TRIM(Order_Line_ID),
-Order_Date,
-TRIM(Customer_ID),
-TRIM(Product_ID),
-TRIM(REPLACE(REPLACE(Postal_Code, CHAR(13), ''), CHAR(10), '')), -- Remove carriage returns from Postal_Code to ensure reliable joins
-Ship_Date,
-Delivery_Date,
-CASE
-WHEN TRIM(Ship_Mode) = 'Std' THEN 'Standard'
-WHEN TRIM(Ship_Mode) = 'Exp' THEN 'Express'
-ELSE TRIM(Ship_Mode)  
-END, -- Normalize Ship_Mode values to readable format
-Quantity,
-Unit_Price,
-Discount,
-CASE
-WHEN TRIM(Discount_Type) IN ('Percent', '%')
-THEN 'Percentage'
-ELSE TRIM(Discount_Type)
-END, -- Normalize Discount_Type values to readable format
-Net_Sales
+	TRIM(Order_ID),
+	TRIM(Order_Line_ID),
+	Order_Date,
+	TRIM(Customer_ID),
+	TRIM(Product_ID),
+	TRIM(REPLACE(REPLACE(Postal_Code, CHAR(13), ''), CHAR(10), '')), -- Remove carriage returns from Postal_Code to ensure reliable joins
+	Ship_Date,
+	Delivery_Date,
+	CASE
+		WHEN TRIM(Ship_Mode) = 'Std' THEN 'Standard'
+		WHEN TRIM(Ship_Mode) = 'Exp' THEN 'Express'
+		ELSE TRIM(Ship_Mode)  
+	END, -- Normalize Ship_Mode values to readable format
+	Quantity,
+	Unit_Price,
+	Discount,
+	CASE
+		WHEN TRIM(Discount_Type) IN ('Percent', '%')
+		THEN 'Percentage'
+		ELSE TRIM(Discount_Type)
+	END, -- Normalize Discount_Type values to readable format
+	Net_Sales
 FROM NAVA_raw.fact_sales
 WHERE Order_Line_ID IS NOT NULL; -- Remove NULL Order_Line_ID values
 
