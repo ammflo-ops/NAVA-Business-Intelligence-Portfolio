@@ -2,8 +2,8 @@
 ======================================================================
 DDL SCRIPT - Create Raw Tables
 ======================================================================
-Project : NAVA Data Warehouse
-Script  : ddl_raw_tables.sql
+Project     : NAVA Data Warehouse
+Script      : ddl_raw_tables.sql
 
 Description :
 
