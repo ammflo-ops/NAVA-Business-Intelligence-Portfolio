@@ -3,7 +3,7 @@
 DDL Script - Create Clean Tables
 ======================================================================
 Project     : NAVA Data Warehouse
-Script      : ddl_clean_tables.sql
+Script      : ddl_clean.sql
 
 Description :
 
