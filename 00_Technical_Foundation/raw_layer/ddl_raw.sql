@@ -49,13 +49,13 @@ Net_Sales                     DECIMAL(10,2)
 DROP TABLE IF EXISTS NAVA_raw.fact_returns;
 
 CREATE TABLE NAVA_raw.fact_returns (
-Return_ID 				            VARCHAR(50),
-Order_ID 				              VARCHAR(50),
-Order_Line_ID 		            VARCHAR(50),
-Return_Date 			            DATE,
-Return_Reason 		            VARCHAR(100),
-Return_Amount 		            DECIMAL(10,2),
-Return_Quantity 	            INT
+Return_ID                     VARCHAR(50),
+Order_ID                      VARCHAR(50),
+Order_Line_ID                 VARCHAR(50),
+Return_Date                   DATE,
+Return_Reason                 VARCHAR(100),
+Return_Amount                 DECIMAL(10,2),
+Return_Quantity               INT
 );
 
 
