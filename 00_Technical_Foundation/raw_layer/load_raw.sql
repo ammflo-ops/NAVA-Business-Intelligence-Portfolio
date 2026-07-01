@@ -3,7 +3,7 @@
 SCRIPT - Load Raw Data
 ======================================================================
 Project     : NAVA Data Warehouse
-Script      : load_raw_tables.sql
+Script      : load_raw.sql
 
 Description :
 
