@@ -3,7 +3,7 @@
 DDL SCRIPT - Create Raw Tables
 ======================================================================
 Project : NAVA Data Warehouse
-Script : ddl_raw_tables.sql
+Script  : ddl_raw_tables.sql
 
 Description :
 
@@ -28,65 +28,70 @@ All existing raw data will be permanently deleted.
 DROP TABLE IF EXISTS NAVA_raw.fact_sales;
 
 CREATE TABLE NAVA_raw.fact_sales (
-Order_ID 				VARCHAR(50),
-Order_Line_ID			VARCHAR(50),
-Order_Date 				DATE,
-Customer_ID 				VARCHAR(50),
-Product_ID 				VARCHAR(50),
-Postal_Code 				VARCHAR(10),
-Ship_Date 				DATE,
-Delivery_Date 			DATE,
-Ship_Mode 				VARCHAR(50),
-Quantity 				INT,
-Unit_Price 				DECIMAL(10,2),
-Discount 				DECIMAL(10,2),
-Discount_Type 			VARCHAR(50),
-Net_Sales 				DECIMAL(10,2)
+Order_ID 				              VARCHAR(50),
+Order_Line_ID			            VARCHAR(50),
+Order_Date 				            DATE,
+Customer_ID 			            VARCHAR(50),
+Product_ID 				            VARCHAR(50),
+Postal_Code 			            VARCHAR(10),
+Ship_Date 				            DATE,
+Delivery_Date 		            DATE,
+Ship_Mode 				            VARCHAR(50),
+Quantity 				              INT,
+Unit_Price 				            DECIMAL(10,2),
+Discount 				              DECIMAL(10,2),
+Discount_Type 		            VARCHAR(50),
+Net_Sales 				            DECIMAL(10,2)
 );
+
+
 -- Drop and recreate NAVA_raw.fact_returns table
 DROP TABLE IF EXISTS NAVA_raw.fact_returns;
 
 CREATE TABLE NAVA_raw.fact_returns (
-Return_ID 				VARCHAR(50),
-Order_ID 				VARCHAR(50),
-Order_Line_ID 			VARCHAR(50),
-Return_Date 				DATE,
-Return_Reason 			VARCHAR(100),
-Return_Amount 			DECIMAL(10,2),
-Return_Quantity 			INT
+Return_ID 				            VARCHAR(50),
+Order_ID 				              VARCHAR(50),
+Order_Line_ID 		            VARCHAR(50),
+Return_Date 			            DATE,
+Return_Reason 		            VARCHAR(100),
+Return_Amount 		            DECIMAL(10,2),
+Return_Quantity 	            INT
 );
+
 
 -- Drop and recreate NAVA_raw.dim_location table
 DROP TABLE IF EXISTS NAVA_raw.dim_location;
 
 CREATE TABLE NAVA_raw.dim_location(
-Postal_Code				VARCHAR(10),
-City 					VARCHAR(50),
-Region 				VARCHAR(50),
-Country 				VARCHAR(50)
+Postal_Code				            VARCHAR(10),
+City 					                VARCHAR(50),
+Region 				                VARCHAR(50),
+Country 				              VARCHAR(50)
 );
+
 
 -- Drop and recreate NAVA_raw.dim_customers table
 DROP TABLE IF EXISTS NAVA_raw.dim_customers;
+
 CREATE TABLE NAVA_raw.dim_customers (
-Customer_ID 				VARCHAR(50),
-Customer_Name 			VARCHAR(100),
-Customer_Segment 			VARCHAR(50),
+Customer_ID 			            VARCHAR(50),
+Customer_Name 			          VARCHAR(100),
+Customer_Segment 			        VARCHAR(50),
 Customer_First_Order_Date 		DATE,
-Postal_Code 				VARCHAR(10)
+Postal_Code 				          VARCHAR(10)
 );
 
 -- Drop and recreate NAVA_raw.dim_products table
 DROP TABLE IF EXISTS NAVA_raw.dim_products;
 
 CREATE TABLE NAVA_raw.dim_products (
-Product_ID 				VARCHAR(50),
-Product_Name 			VARCHAR(100),
-Category 				VARCHAR(50),
-Sub_Category 			VARCHAR(50),
-Product_Tier 				VARCHAR(50),
-Is_Top_Seller 				VARCHAR(10),
-Standard_Cost 			DECIMAL(10,2)
+Product_ID 				            VARCHAR(50),
+Product_Name 		            	VARCHAR(100),
+Category 				              VARCHAR(50),
+Sub_Category 			            VARCHAR(50),
+Product_Tier 			          	VARCHAR(50),
+Is_Top_Seller 			        	VARCHAR(10),
+Standard_Cost 			          DECIMAL(10,2)
 );
 
 
