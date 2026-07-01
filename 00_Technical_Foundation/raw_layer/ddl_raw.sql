@@ -32,16 +32,16 @@ Order_ID                      VARCHAR(50),
 Order_Line_ID                 VARCHAR(50),
 Order_Date                    DATE,
 Customer_ID                   VARCHAR(50),
-Product_ID 				            VARCHAR(50),
-Postal_Code 			            VARCHAR(10),
-Ship_Date 				            DATE,
-Delivery_Date 		            DATE,
-Ship_Mode 				            VARCHAR(50),
-Quantity 				              INT,
-Unit_Price 				            DECIMAL(10,2),
-Discount 				              DECIMAL(10,2),
-Discount_Type 		            VARCHAR(50),
-Net_Sales 				            DECIMAL(10,2)
+Product_ID                    VARCHAR(50),
+Postal_Code                   VARCHAR(10),
+Ship_Date                     DATE,
+Delivery_Date                 DATE,
+Ship_Mode                     VARCHAR(50),
+Quantity                      INT,
+Unit_Price                    DECIMAL(10,2),
+Discount                      DECIMAL(10,2),
+Discount_Type                 VARCHAR(50),
+Net_Sales                     DECIMAL(10,2)
 );
 
 
