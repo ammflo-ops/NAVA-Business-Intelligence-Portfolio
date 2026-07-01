@@ -137,7 +137,6 @@ SELECT
 FROM NAVA_raw.dim_location
 WHERE Postal_Code IS NOT NULL; -- Remove NULL Postal_Code values
 
-
 -- Truncate and Reload NAVA_clean.dim_products table
 TRUNCATE TABLE NAVA_clean.dim_products;
 
@@ -239,8 +238,6 @@ SELECT
 	Clicks
 FROM NAVA_raw.fact_marketing
 WHERE Marketing_ID IS NOT NULL; -- Remove NULL Marketing_ID values
-
-
 
 -- Truncate and Reload NAVA_clean.fact_marketing_conversion table
 TRUNCATE TABLE NAVA_clean.fact_marketing_conversion;
