@@ -52,13 +52,13 @@ SQL-based analytics to deliver detailed insights into :
 
 # 📂 Repository Structure
 
-```text
+```
 NAVA-Business-Intelligence-Portfolio
 │
 ├── 00_Technical_Foundation/
-│   ├── datasets                                                # Raw datasets used for the project
-│   ├── scripts                                                 # SQL scripts for ETL and transformations
-│   ├── tests                                                   # Test scripts and quality files                   
+│   ├── datasets                                       # Raw datasets used for the project
+│   ├── scripts                                        # SQL scripts for ETL and transformations
+│   ├── tests                                          # Test scripts and quality files                   
 │
 ├── 01_Sales_Performance
 │
@@ -68,7 +68,8 @@ NAVA-Business-Intelligence-Portfolio
 │
 └── assets
 │
-└── README.md                                                  # Project overview and instructions
+└── README.md                                           # Project overview and instructions
+```
 
 ---
 
