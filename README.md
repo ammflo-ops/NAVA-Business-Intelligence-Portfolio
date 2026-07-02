@@ -58,14 +58,17 @@ NAVA-Business-Intelligence-Portfolio
 ├── 00_Technical_Foundation/
 │   ├── datasets                                                # Raw datasets used for the project
 │   ├── scripts                                                 # SQL scripts for ETL and transformations
-│   ├── test                                                    # Test scripts and quality files                   
+│   ├── tests                                                   # Test scripts and quality files                   
 │
 ├── 01_Sales_Performance
 │
 ├── 02_Budget_Performance
 │
 └── 03_Marketing_Performance
-```
+│
+└── assets
+│
+└── README.md                                                  # Project overview and instructions
 
 ---
 
