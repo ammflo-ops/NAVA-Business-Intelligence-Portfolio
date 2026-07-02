@@ -11,7 +11,7 @@ All analytical projects rely on the same SQL data warehouse, ensuring consistent
 The solution follows a multi-layer SQL architecture designed to transform raw operational data into business-ready datasets.
 
 <p align="center">
-  <img src="../assets/NAVA_data_architecture.png" width="900">
+  <img src="../assets/data_architecture.png" width="900">
 </p>
 
 ---
