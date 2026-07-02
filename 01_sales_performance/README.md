@@ -1,4 +1,4 @@
-# Sales Performance
+# 01 Sales Performance
 
 This project analyzes the commercial performance of **NAVA** to evaluate revenue growth, profitability and customer performance across France, Spain and Portugal.
 
@@ -15,7 +15,7 @@ Assess whether business growth is sustainable by monitoring sales, profitability
 # 📊 Dashboard Overview
 
 <p align="center">
-  <img src="assets/sales_dashboard.png" width="900">
+  <img src="../assets/sales_dashboard.png" width="900">
 </p>
 
 ---
