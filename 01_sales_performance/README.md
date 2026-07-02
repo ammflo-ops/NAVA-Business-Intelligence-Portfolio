@@ -15,7 +15,7 @@ Assess whether business growth is sustainable by monitoring sales, profitability
 # 📊 Dashboard Overview
 
 <p align="center">
-  <img src="dashboard/sales_dashboard.png" width="900">
+  <img src="assets/sales_dashboard.png" width="900">
 </p>
 
 ---
