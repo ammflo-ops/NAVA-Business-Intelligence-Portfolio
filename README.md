@@ -1,161 +1,87 @@
 # NAVA Business Intelligence Portfolio
 
-This portfolio showcases a complete Business Intelligence solution developed for **NAVA**, a fictional e-commerce company specializing in Home Decor & Lifestyle products across **France, Spain and Portugal**.
+This repository showcases an end-to-end Business Intelligence solution developed for **NAVA**, a fictional Home Decor & Lifestyle e-commerce company operating across **France, Spain and Portugal**.
 
-The project demonstrates the full BI lifecycle, from raw data ingestion and SQL data modeling to interactive Tableau dashboards designed to support business decision-making.
+The portfolio demonstrates the complete BI workflow, from SQL data engineering to interactive dashboards designed to support business decision-making.
 
 ---
 
-## 📖 Project Overview
+# 📖 Overview
 
-The repository is organized into four complementary sections, covering the complete Business Intelligence workflow from data preparation to business reporting.
-
+The portfolio is built around a **shared SQL architecture** powering three independent business-oriented analytical projects.
 <p align="center">
   <img src="assets/NAVA_bi_portfolio_summary.png" width="900">
 </p>
----
-
-## Technical Stack
-
-- **SQL (MySQL)**
-- **Tableau**
-- **Microsoft Excel**
-- Data Modeling
-- Data Cleaning
-- ETL
-- KPI Design
-- Business Analysis
 
 ---
 
-## BI Architecture
+# 📖 Project Requirements
 
-<p align="center">
-  <img src="assets/architecture/nava_bi_architecture.png" width="900">
-</p>
+## 🏗 Building the Data Warehouse (Data Engineering)
 
-The solution follows a multi-layer architecture:
+#### Objective
 
-- **Raw Layer** → Data ingestion
-- **Clean Layer** → Data cleaning & standardization
-- **Analytics Layer** → Business-ready SQL views
-- **Visualization Layer** → Tableau dashboards & Executive reporting
+Design and implement a robust SQL architecture capable of transforming raw operational data into reliable analytical datasets.
 
----
+### Deliverables
 
-# Business Projects
-
-## 📈 Project 01 — Sales Performance
-
-**Business Question**
-
-> *Are we growing profitably?*
-
-**Highlights**
-
-- Sales & Profitability Analysis
-- Country Performance
-- Product Category Analysis
-- Customer & Order KPIs
-- Business Insights
-
-<p align="center">
-<img src="assets/dashboard_previews/sales_dashboard.png" width="900">
-</p>
-
-➡ **Open Project**
-
----
-
-## 💰 Project 02 — Budget Performance
-
-**Business Question**
-
-> *Are we spending according to plan?*
-
-**Highlights**
-
-- Budget vs Actual
-- Variance Analysis
-- Department Performance
-- Cost Category Analysis
-- Budget Utilization
-
-<p align="center">
-<img src="assets/dashboard_previews/budget_dashboard.png" width="900">
-</p>
-
-➡ **Open Project**
-
----
-
-## 📣 Project 03 — Marketing Performance
-
-**Business Question**
-
-> *Are we investing efficiently?*
-
-**Highlights**
-
-- Marketing Spend Analysis
-- Channel Performance
-- Campaign Effectiveness
-- Marketing Efficiency
-- Budget Simulation
-
-<p align="center">
-<img src="assets/dashboard_previews/marketing_dashboard.png" width="900">
-</p>
-
-➡ **Open Project**
-
----
-
-# Technical Foundation
-
-The three business dashboards are powered by a shared SQL architecture.
-
-Contents include:
-
-- Data Warehouse Architecture
-- Raw Layer
-- Clean Layer
+- Multi-layer SQL Architecture
+- Raw, Clean & Analytics databases
+- Data Cleansing & Standardization
+- ETL Pipelines
 - Data Quality Controls
-- Analytics Views
-- SQL ETL Scripts
+- Business-ready SQL Views
 
-➡ **Explore Technical Foundation**
+## 📊 Business Intelligence & Reporting (Data Analysis)
+
+### Objective
+
+Develop interactive dashboards and analytical views that support business decision-making across multiple departments.
+
+### Deliverables
+
+SQL-based analytics to deliver detailed insights into:
+
+- Sales Performance
+- Budget Overview
+- Marketing Efficiency
 
 ---
 
-## Repository Structure
+# 🛠️ Technologies
 
-```
-NAVA Business Intelligence Portfolio
+- MySQL
+- SQL
+- Tableau
+- Microsoft Excel
+- Draw.io
+
+---
+
+# 🔗 Explore the Portfolio
+
+| Repository Section | Description |
+|--------------------|-------------|
+| ⚙️ 00 Technical Foundation | SQL Architecture, ETL & Analytics Views |
+| 📈 01 Sales Performance | Sales Performance Dashboard |
+| 💰 02 Budget Performance | Budget Control Dashboard |
+| 📣 03 Marketing Performance | Marketing Performance Dashboard |
+
+---
+
+# 📂 Repository Structure
+
+```text
+NAVA-Business-Intelligence-Portfolio
 │
 ├── 00_Technical_Foundation
+│
 ├── 01_Sales_Performance
+│
 ├── 02_Budget_Performance
+│
 └── 03_Marketing_Performance
 ```
-
----
-
-## Key Skills Demonstrated
-
-✔ SQL Data Modeling
-
-✔ ETL & Data Cleaning
-
-✔ Business Intelligence Architecture
-
-✔ KPI Development
-
-✔ Interactive Tableau Dashboards
-
-✔ Business Storytelling
-
-✔ Decision Support Analytics
 
 ---
 
