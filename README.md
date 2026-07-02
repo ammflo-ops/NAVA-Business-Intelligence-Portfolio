@@ -10,7 +10,7 @@ The portfolio demonstrates the complete BI workflow, from SQL data engineering a
 
 The portfolio is built on a **shared SQL architecture** that powers three independent business-oriented analytical projects.
 <p align="center">
-  <img src="assets/NAVA_bi_portfolio_summary.png" width="900">
+  <img src="assets/bi_portfolio_summary.png" width="900">
 </p>
 
 ---
