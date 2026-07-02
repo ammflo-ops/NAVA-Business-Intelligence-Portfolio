@@ -40,7 +40,7 @@ Develop interactive dashboards and analytical views that support business decisi
 
 ### Deliverables
 
-SQL-based analytics to deliver detailed insights into:
+SQL-based analytics to deliver detailed insights into :
 
 - **Sales Performance**
 - **Budget Overview**
