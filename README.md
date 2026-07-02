@@ -10,6 +10,10 @@ The project demonstrates the full BI lifecycle, from raw data ingestion and SQL 
 
 The repository is organized into four complementary sections, covering the complete Business Intelligence workflow from data preparation to business reporting.
 
+<p align="center">
+  <img src="assets/NAVA_bi_portfolio_summary.png" width="900">
+</p>
+
 | Section | Purpose |
 |----------|---------|
 | ⚙️ Technical Foundation | SQL data warehouse, ETL processes and analytical views |
