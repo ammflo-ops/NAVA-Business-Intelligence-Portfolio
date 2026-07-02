@@ -40,16 +40,16 @@ The technical foundation was designed so that a single SQL architecture supports
 ├── datasets/
 │
 ├── scripts/
-│   ├── 01_Raw_Layer/
-│   ├── 02_Clean_Layer/
-│   ├── 03_Analytics_Layer/
-│   └── 04_Data_Quality/
+│   ├── raw_layer/
+│   ├── clean_layer/
+│   ├── analytics_layer/
+│   └── data_quality/
 │
 └── README.md
 ```
 
 ---
 
-# 💡 Purpose
+# Purpose
 
 The objective of this technical foundation is to provide a single, reliable and reusable SQL architecture supporting all analytical projects within the NAVA Business Intelligence portfolio.
