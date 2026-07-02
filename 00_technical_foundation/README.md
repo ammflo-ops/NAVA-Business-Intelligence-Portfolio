@@ -50,6 +50,6 @@ The technical foundation was designed so that a single SQL architecture supports
 
 ---
 
-# Purpose
+# About
 
 The objective of this technical foundation is to provide a single, reliable and reusable SQL architecture supporting all analytical projects within the NAVA Business Intelligence portfolio.
