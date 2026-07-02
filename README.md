@@ -42,9 +42,9 @@ Develop interactive dashboards and analytical views that support business decisi
 
 SQL-based analytics to deliver detailed insights into:
 
-- Sales Performance
-- Budget Overview
-- Marketing Efficiency
+- **Sales Performance**
+- **Budget Overview**
+- **Marketing Efficiency**
 
 ---
 
