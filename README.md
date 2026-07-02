@@ -32,6 +32,8 @@ Design and implement a robust SQL architecture capable of transforming raw opera
 - Data Quality Controls
 - Business-ready SQL Views
 
+For more details, refer to [00_technical_foundation ReadMe]
+
 ## 📊 Business Intelligence & Reporting (Data Analysis)
 
 ### Objective
@@ -42,30 +44,9 @@ Develop interactive dashboards and analytical views that support business decisi
 
 SQL-based analytics to deliver detailed insights into :
 
-- **Sales Performance**
-- **Budget Overview**
-- **Marketing Efficiency**
-
----
-
-# 🛠️ Technologies
-
-- MySQL
-- SQL
-- Tableau
-- Microsoft Excel
-- Draw.io
-
----
-
-# 🔗 Explore the Portfolio
-
-| Repository Section | Description |
-|--------------------|-------------|
-| ⚙️ 00 Technical Foundation | SQL Architecture, ETL & Analytics Views |
-| 📈 01 Sales Performance | Sales Performance Dashboard |
-| 💰 02 Budget Performance | Budget Control Dashboard |
-| 📣 03 Marketing Performance | Marketing Performance Dashboard |
+- **Sales Performance** (see more)
+- **Budget Overview** (see more)
+- **Marketing Efficiency** (see more)
 
 ---
 
@@ -74,7 +55,10 @@ SQL-based analytics to deliver detailed insights into :
 ```text
 NAVA-Business-Intelligence-Portfolio
 │
-├── 00_Technical_Foundation
+├── 00_Technical_Foundation/
+│   ├── datasets                                                # Raw datasets used for the project
+│   ├── scripts                                                 # SQL scripts for ETL and transformations
+│   ├── test                                                    # Test scripts and quality files                   
 │
 ├── 01_Sales_Performance
 │
