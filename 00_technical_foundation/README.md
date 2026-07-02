@@ -14,82 +14,21 @@ The solution follows a multi-layer SQL architecture designed to transform raw op
   <img src="../assets/NAVA_data_architecture.png" width="900">
 </p>
 
-1. **NAVA_Raw Layer**        : Store source data without transformation
-2. **NAVA_Clean Layer**      : Clean, standardize and enrich the datasets
-3. **NAVA_Analytics Layer**  : Build business-ready SQL views for reporting
 ---
 
-# 📖 Architecture Overview
+# 📖 Overview
 
-The architecture is divided into three logical layers.
+## ✍️ Design Principles
 
-| Layer | Purpose |
-|--------|---------|
-| **Raw Layer** | Store source data without transformation |
-| **Clean Layer** | Clean, standardize and enrich the datasets |
-| **Analytics Layer** | Build business-ready SQL views for reporting |
+The technical foundation was designed so that a single SQL architecture supports multiple business domains while maintaining consistent business definitions and analytical logic.
 
----
+## ✅ Key Capabilities
 
-# 🚀 Project Components
-
-## 📂 01 Raw Layer
-
-### Objective
-
-Load raw CSV files into the SQL database while preserving the original data structure.
-
-### Key Activities
-
-- Raw data ingestion
-- Full load process
-- No transformations
-- Source data preservation
-
----
-
-## 🧹 02 Clean Layer
-
-### Objective
-
-Prepare reliable datasets through cleansing, standardization and business rules.
-
-### Key Activities
-
-- Data cleansing
-- Standardization
-- Normalization
-- Derived columns
-- Business rules
-- Referential integrity
-
----
-
-## 📊 03 Analytics Layer
-
-### Objective
-
-Create reusable analytical views optimized for business reporting.
-
-### Analytical Views
-
-- `vw_sales_net`
-- `vw_budget_vs_actual`
-- `vw_marketing_performance`
-- `vw_marketing_conversion`
-
----
-
-# ✔ Data Quality
-
-The project includes SQL validation scripts used to improve dataset reliability.
-
-Examples include:
-
-- Duplicate detection
-- NULL value validation
-- Referential integrity checks
-- Business rule validation
+- **Shared SQL Architecture** supporting multiple analytical projects
+- **Multi-layer Data Warehouse** (Raw → Clean → Analytics)
+- **Reusable Analytical Views** optimized for reporting
+- **Integrated Data Quality Controls** throughout the ETL process
+- **Business-ready Datasets** designed for Tableau dashboards
 
 ---
 
