@@ -71,7 +71,7 @@ NAVA-Business-Intelligence-Portfolio
 
 ---
 
-## About this Project
+## About this Portfolio
 
 This project was created to simulate a real Business Intelligence environment by demonstrating the complete journey from raw data to business insights.
 
