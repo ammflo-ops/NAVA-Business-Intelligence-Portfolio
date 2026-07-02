@@ -13,14 +13,6 @@ The repository is organized into four complementary sections, covering the compl
 <p align="center">
   <img src="assets/NAVA_bi_portfolio_summary.png" width="900">
 </p>
-
-| Section | Purpose |
-|----------|---------|
-| ⚙️ Technical Foundation | SQL data warehouse, ETL processes and analytical views |
-| 📈 Sales Performance | Revenue growth and profitability analysis |
-| 💰 Budget Performance | Budget monitoring and cost control |
-| 📣 Marketing Performance | Marketing efficiency and investment optimization |
-
 ---
 
 ## Technical Stack
