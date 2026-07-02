@@ -6,18 +6,16 @@ The project demonstrates the full BI lifecycle, from raw data ingestion and SQL 
 
 ---
 
-## Business Objectives
+## 📖 Project Overview
 
-This portfolio addresses three key business questions:
+The repository is organized into four complementary sections, covering the complete Business Intelligence workflow from data preparation to business reporting.
 
-📈 **Sales Performance**
-> Are we growing profitably?
-
-💰 **Budget Performance**
-> Are we spending according to plan?
-
-📣 **Marketing Performance**
-> Are we investing in the right channels?
+| Section | Purpose |
+|----------|---------|
+| ⚙️ Technical Foundation | SQL data warehouse, ETL processes and analytical views |
+| 📈 Sales Performance | Revenue growth and profitability analysis |
+| 💰 Budget Performance | Budget monitoring and cost control |
+| 📣 Marketing Performance | Marketing efficiency and investment optimization |
 
 ---
 
