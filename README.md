@@ -1,4 +1,5 @@
 # NAVA Business Intelligence Portfolio
+> <i>SQL • Data Engineering • Tableau • Business Analytics</i>
 
 Welcome to the **NAVA Business Intelligence Portfolio**.
 
@@ -15,11 +16,11 @@ The portfolio is built on a **shared SQL architecture** that powers three indepe
   <img src="assets/bi_portfolio_summary.png" width="900">
 </p>
 
-       One shared SQL architecture. Four complementary repositories. One Business Intelligence solution.
+      One shared SQL architecture. Four complementary repositories. One Business Intelligence solution.
 
 ---
 
-# 📖  Explore the Portfolio
+# 📖  Portfolio Components
 
 The portfolio is divided into four independent repositories. Each project can be explored individually while remaining part of the same Business Intelligence ecosystem.
 
@@ -55,18 +56,18 @@ SQL-based analytics to deliver detailed insights into :
 
 ---
 
-# 📂 Quick Access
+# 🔗 Quick Access
 
-- **[Portfolio Hub](README.md/) :** NAVA BI Portfolio Summary
-- **[00 Technical Foundation](README.md/) :** SQL Data Warehouse, ETL pipelines, Data Quality and Analytics Views-
-- **[01 Sales Performance](README.md/) :** Revenue Growth & Profitability Analysis
-- **[02 Budget Overview](README.md/) :** Budget Monitoring & Variance Analysis
-- **[03 Marketing Optimization](README.md/) :** Marketing Efficiency & Budget Optimization
+| Repository | Description | Github Link |
+|------------|--------|----------------|
+| 📖 Portfolio Hub | Solution overview and navigation | **[Learn More](README.md/)** |
+| 📁 00 Technical Foundation | SQL Architecture, ETL & Analytics Views | **[Learn More](README.md/)** |
+| 📊 01 Sales Performance | Revenue Growth & Profitability Analysis | **[Learn More](README.md/)** |
+| 📊 02 Budget Performance | Budget Monitoring & Variance Analysis | **[Learn More](README.md/)** |
+| 📊 03 Marketing Performance | Marketing Efficiency & Budget Optimization | **[Learn More](README.md/)** |
 
 ---
 
 ## 💡 About this Portfolio
 
-This project was created to simulate a real Business Intelligence environment by demonstrating the complete journey from raw data to business insights.
-
-It combines SQL data engineering, analytical modeling and interactive reporting within a single, shared BI solution.
+This portfolio was developed to replicate a real-world Business Intelligence solution, demonstrating how a shared SQL architecture supports multiple business domains through reusable analytical models and interactive reporting.
