@@ -68,6 +68,6 @@ SQL-based analytics to deliver detailed insights into :
 
 ---
 
-## 💡 About this Portfolio
+# 💡 About this Portfolio
 
 This portfolio was developed to replicate a real-world Business Intelligence solution, demonstrating how a shared SQL architecture supports multiple business domains through reusable analytical models and interactive reporting.
