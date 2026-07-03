@@ -1,8 +1,10 @@
 # NAVA Business Intelligence Portfolio
 
-This repository showcases an end-to-end Business Intelligence solution developed for **NAVA**, a fictional Home Decor & Lifestyle e-commerce company operating across **France, Spain and Portugal**.
+Welcome to the **NAVA Business Intelligence Portfolio**.
 
-The portfolio demonstrates the complete BI workflow, from SQL data engineering and data modeling to interactive dashboards supporting business decision-making.
+This portfolio showcases an end-to-end Business Intelligence solution developed for **NAVA**, a fictional Home Decor & Lifestyle e-commerce company operating across **France, Spain and Portugal**.
+
+The project demonstrates the complete BI lifecycle, from SQL data engineering and data modeling to interactive dashboards supporting business decision-making.
 
 ---
 
@@ -13,9 +15,13 @@ The portfolio is built on a **shared SQL architecture** that powers three indepe
   <img src="assets/bi_portfolio_summary.png" width="900">
 </p>
 
+       One shared SQL architecture. Four complementary repositories. One Business Intelligence solution.
+
 ---
 
-# 📖 Project Scope
+# 📖  Explore the Portfolio
+
+The portfolio is divided into four independent repositories. Each project can be explored individually while remaining part of the same Business Intelligence ecosystem.
 
 ## 🏗 Building the Data Warehouse (Data Engineering)
 
@@ -48,7 +54,7 @@ SQL-based analytics to deliver detailed insights into :
 
 ---
 
-# 📂 Repository Structure
+# 📂 Quick Access
 
 ```
 NAVA-Business-Intelligence-Portfolio
