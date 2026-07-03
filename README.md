@@ -62,7 +62,7 @@ SQL-based analytics to deliver detailed insights into :
 |------------|--------|----------------|
 | 📖 Portfolio Hub | Solution overview and navigation | [Learn More](README.md/) |
 | 📁 00 Technical Foundation | SQL Architecture, ETL & Analytics Views | [Learn More](https://github.com/ammflo-ops/NAVA-00-Technical-Foundation/blob/main/README.md) |
-| 📊 01 Sales Performance | Revenue Growth & Profitability Analysis | [Learn More](README.md/) |
+| 📊 01 Sales Performance | Revenue Growth & Profitability Analysis | [Learn More](https://github.com/ammflo-ops/NAVA-01-sales-performance/blob/main/README.md) |
 | 📊 02 Budget Performance | Budget Monitoring & Variance Analysis | [Learn More](README.md/) |
 | 📊 03 Marketing Performance | Marketing Efficiency & Budget Optimization | [Learn More](README.md/) |
 
