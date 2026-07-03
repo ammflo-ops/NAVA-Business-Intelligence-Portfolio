@@ -37,6 +37,7 @@ Design and implement a robust SQL architecture capable of transforming raw opera
 - ETL Pipelines
 - Data Quality Controls
 - Business-ready Analytical Views
+  
 
 ## 📊 Business Intelligence & Reporting (Data Analysis)
 
@@ -56,28 +57,15 @@ SQL-based analytics to deliver detailed insights into :
 
 # 📂 Quick Access
 
-```
-NAVA-Business-Intelligence-Portfolio
-│
-├── 00_Technical_Foundation/
-│   ├── datasets                                       # Project datasets
-│   ├── scripts                                        # SQL scripts (ETL, cleaning & analytics)
-│   ├── tests                                          # Data quality validation                  
-│
-├── 01_Sales_Performance
-│
-├── 02_Budget_Performance
-│
-└── 03_Marketing_Performance
-│
-└── assets
-│
-└── README.md                                           # Project overview and instructions
-```
+- **[Portfolio Hub](README.md/) :** NAVA BI Portfolio Summary
+- **[00 Technical Foundation](README.md/) :** SQL Data Warehouse, ETL pipelines, Data Quality and Analytics Views-
+- **[01 Sales Performance](README.md/) :** Revenue Growth & Profitability Analysis
+- **[02 Budget Overview](README.md/) :** Budget Monitoring & Variance Analysis
+- **[03 Marketing Optimization](README.md/) :** Marketing Efficiency & Budget Optimization
 
 ---
 
-## About this Portfolio
+## 💡 About this Portfolio
 
 This project was created to simulate a real Business Intelligence environment by demonstrating the complete journey from raw data to business insights.
 
